@@ -1,11 +1,12 @@
 #include <iostream>
-
+#include <string>
 int main() {
 	
 	int count = 0;
 	int k;
 	int numLoop;
 	std::cin >> numLoop;
+	
 	for (int i = 0; i < numLoop; i++) {
 		std::cin >> k;
 		if (k == 1) {
@@ -26,5 +27,7 @@ int main() {
 			std::cout << "TAK" << std::endl;
 		}
 		count = 0;
+		
 	}
 }
+
