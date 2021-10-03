@@ -7,11 +7,12 @@ int main()
 {
     int cities;
     int plusNumber = 0;
-    int highestNum = 0;
-    int sum = 0;
+    long long highestNum = 0;
+    long long sum = 0;
     int* money;
     cin >> cities;
     money = new int[cities];
+
     for (int i = 0; i < cities; i++) {
         cin >> money[i];
         if (money[i] > 0) {
