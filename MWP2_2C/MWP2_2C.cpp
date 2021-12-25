@@ -25,7 +25,7 @@ int main()
             if (r1 > r2) printf("%.2f\n",d2);
             else printf("%.2f\n", d1);
         }
-        else if (l > (r1 + r2)) cout <<  "0.00";
+        else if (l > (r1 + r2)) cout <<  "0.00\n";
         else printf("%.2f\n", result);
        
     }
